@@ -1,0 +1,14 @@
+.SideNav {
+    text-align: center;
+    color: black
+}
+
+.btn-link {
+    color: black;
+    &:hover {
+        color: black
+    }
+    &:active {
+        color: black
+    }
+}

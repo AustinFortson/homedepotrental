@@ -1,0 +1,50 @@
+.carouselMini {
+    background-color: white;
+    display: inline-block
+}
+
+.carousel-item{
+    padding: 1.8em;
+}
+
+.carousel-caption{
+    color: black;
+    text-align: center;
+}
+
+.carousel-control-next-icon {
+    background-image: url("https://cdn2.iconfinder.com/data/icons/250-perfect-vector-pictograms/48/9.5-512.png")
+}
+
+.carousel-control-prev-icon {
+    background-image: url("https://cdn2.iconfinder.com/data/icons/250-perfect-vector-pictograms/48/9.5-512.png");
+    transform: rotate(180deg)
+}
+
+.carousel-indicators li {
+    background-color: black
+}
+
+.carousel-indicators {
+    display: none;
+}
+
+.carouselIMG {
+    width: 50%;
+    &:hover{
+        opacity: .7;
+        cursor: pointer;
+    }
+}
+
+
+.carouselViewAll {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin: none;
+}
+
+#cat {
+    display: inline-block;
+}

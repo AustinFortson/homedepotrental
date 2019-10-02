@@ -1,0 +1,19 @@
+.logo {
+    height: 4em;
+}
+
+#navbarButton {
+    background-color: #F96302;
+    border: none;
+}
+
+a {
+    color: #00000080;
+    &:hover {
+        cursor: pointer;
+        color: #00000080;
+    }
+    &:active {
+        color: #212529
+    }
+}

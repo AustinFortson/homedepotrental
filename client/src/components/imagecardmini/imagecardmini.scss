@@ -1,0 +1,23 @@
+.imageCardMini {
+    width: 11em;
+    text-align: center;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.miniCardIMG {
+    width: 80%;
+}
+
+.miniCardLink{
+    color: black;
+    text-decoration: none;
+    &:hover {
+        color: black;
+        cursor: pointer;
+    }
+    &:active {
+        color: black;
+        text-decoration: none;
+    }
+}
