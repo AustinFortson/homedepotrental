@@ -30,7 +30,7 @@ class CarouselMini extends React.Component {
                         />
                     </Carousel.Item>
                     <Carousel.Item>
-                            <h4 className="CarouselViewAll">View All</h4>
+                            <Link to="/renttools"><h4 className="CarouselViewAll">View All</h4></Link>
                     </Carousel.Item>
                 </Carousel>
             </div>

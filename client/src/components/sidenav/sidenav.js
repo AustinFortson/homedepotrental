@@ -29,12 +29,9 @@ export default function SideNav() {
     return (
         <div className="SideNav">
             {/*Search Bar*/}
-            <InputGroup>
-                <FormControl type="text" placeholder="Search Tools" />
-                <InputGroup.Append>
-                    <Button id="navbarButton"><img src={SearchIcon} /></Button>
-                </InputGroup.Append>
-            </InputGroup>
+            <Container>
+                <h3>Rental Categories</h3>
+            </Container>
 
             <Accordion>
                 <Card>
