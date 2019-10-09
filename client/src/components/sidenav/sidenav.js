@@ -1,5 +1,6 @@
 import React from 'react';
 import { Container, FormControl, InputGroup, Button, Accordion, Card, Col, Row} from 'react-bootstrap';
+import { Link } from "react-router-dom";
 import SearchIcon from '../images/searchIcon.svg';
 import './sidenav.scss';
 import CarouselMini from '../carouselmini/carouselmini';
@@ -176,7 +177,7 @@ export default function SideNav() {
                 </Card>
                 <Card>
                     <Card.Header>
-                       View All
+                    <Link to = "/renttools">View All</Link>
                        </Card.Header>
                 </Card>
             </Accordion>

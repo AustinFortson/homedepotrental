@@ -1,0 +1,25 @@
+#tools-row {
+    padding: 30px;
+}
+
+#col {
+    display: flex;
+}
+
+#tools-searchbar {
+    padding: 15px;
+}
+
+.tools {
+    list-style: none;
+    display: contents;
+    padding: 1.5em;
+}
+
+.tool {
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+    margin-bottom: 30px;
+    padding: 5px;
+}
+
