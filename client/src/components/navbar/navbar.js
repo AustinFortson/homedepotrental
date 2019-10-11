@@ -22,6 +22,7 @@ export default function Navbar1() {
                         <NavDropdown.Item><Link to ="/faq">FAQ</Link></NavDropdown.Item>
                     </NavDropdown>
                 </Nav>
+                <Nav.Link><Link to = "/cart">Cart</Link></Nav.Link>
             </Navbar.Collapse>
         </Navbar>
 

@@ -3,13 +3,6 @@ import { Container, Row, Button } from 'react-bootstrap';
 import './toolcard.scss';
 
 export default class ToolCard extends React.Component {
-	constructor(props) {
-		super(props);
-		this.state = {
-            status: false,
-        };
-    }
-
 
 	render = () => {
 		return (
@@ -32,7 +25,7 @@ export default class ToolCard extends React.Component {
                     <h5>2 Day: ${this.props.toolTwoDay}</h5>
                     <h5>Weekly: ${this.props.toolWeekly}</h5>
                 </Row>
-                <Button variant="success" onClick={this.handleClick}>Add Tool</Button>
+                <Button variant="success" onClick={this.props.onClick}>Add Tool</Button>
             </Container>
 		);
 	}
