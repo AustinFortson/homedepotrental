@@ -25,7 +25,7 @@ export default class ToolCard extends React.Component {
                     <h5>2 Day: ${this.props.toolTwoDay}</h5>
                     <h5>Weekly: ${this.props.toolWeekly}</h5>
                 </Row>
-                <Button variant="success" onClick={this.props.onClick}>Add Tool</Button>
+                <Button variant="dark" onClick={this.props.onClick}>Add To Rental</Button>
             </Container>
 		);
 	}

@@ -3,7 +3,7 @@ import { ADD_TO_CART } from '../actions/action-types/cart-actions';
 
 const initState = {
     tools: Tools,
-    searchInput: "",
+    searchInput: '',
     addedTools: [],
     total: 0
 }
