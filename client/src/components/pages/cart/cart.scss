@@ -4,6 +4,7 @@
 
 .cart-header {
     text-align: center;
+    margin-top: 15px;
 }
 
 #orange-link {
@@ -16,9 +17,24 @@
 
 .cart-tool {
     border: 1px solid rgba(0,0,0,.125);
-    padding: 1.5em
+    padding: 1.5em;
+    margin-bottom: 1.5em;
 }
 
 .cart-tool-img {
     width: 150px;
+}
+
+#cart-prices {
+    font-weight: bold;
+}
+
+#addIcon {
+    margin-left: .5em;
+    font-size: 40px;
+}
+
+#subtractIcon {
+    margin-left: .25em;
+    font-size: 40px;
 }
