@@ -4,15 +4,15 @@
 
 .cart-header {
     text-align: center;
-    margin-top: 15px;
 }
 
 #orange-link {
     color: #F96302
 }
 
-.collection {
+#collection {
     display: flex;
+    padding: 30px;
 }
 
 .cart-tool {
@@ -32,9 +32,46 @@
 #addIcon {
     margin-left: .5em;
     font-size: 40px;
+    text-decoration: none;
+    color: black;
+    &:hover {
+        opacity: .7
+    }
 }
 
 #subtractIcon {
     margin-left: .25em;
     font-size: 40px;
+    text-decoration: none;
+    color: black;
+    &:hover {
+        opacity: .7
+    }
+}
+
+#removeIcon {
+    color: black;
+    &:hover {
+        opacity: .7;
+        text-decoration: underline;
+    }
+}
+
+#cart-submit {
+    background-color: #F96302;
+    border-color: #F96302;
+}
+
+.cart-total {
+    margin-left: 1.5em;
+    border: 1px solid rgba(92, 87, 87, 0.125);
+    padding: 1.5em
+}
+
+#cart-total-header {
+    border: 3px solid #F96302;
+}
+
+.total-price {
+    text-align: center;
 }
