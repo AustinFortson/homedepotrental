@@ -11,5 +11,5 @@ const store = createStore(cartReducer);
 console.log("Created by Austin Fortson", '\n', 
             "Portfolio: https://austinfortson.netlify.com/", '\n',
             "LinkedIn: https://www.linkedin.com/in/austin-fortson-916b17170", '\n',
-            "GitHub Code: https://github.com/AustinFortson/Portfolio");
+            "GitHub Code: https://github.com/AustinFortson/homedepotrental");
 ReactDOM.render(<Provider store={store}><App /></Provider>, document.getElementById('root'));
